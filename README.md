@@ -21,15 +21,15 @@ pip install -r requirements.txt
 
 And that's all!!!
 
-###Configuration
+### Configuration
 
 In  ./tutipleni/settings.py you have all the configuration variables, the most important are:
- - FILES_STORE: folder where save the files.
- - DOWNLOAD_DELAY: delay between downloads.
+ - FILES_STORE: Folder where save the files.
+ - DOWNLOAD_DELAY: Delay between downloads.
  - CONCURRENT_REQUESTS_*: To set the concurrents requests at the same time.
 
 
-###running
+### Running
 In the root folder of the project launch this command
 ```
 scrapy crawl thetrhove
